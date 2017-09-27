@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#85000000"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="3dp">
+
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/taxfree_stores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView4"
+        app:srcCompat="@drawable/default_pin"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:scaleType="fitXY" />
+
+    <TextView android:textSize="12sp"
+        android:textColor="@color/white"
+        android:text="@string/immediate_stores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/imageView4"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView"
+        app:srcCompat="@drawable/blue"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:scaleType="fitXY" />
+
+    <TextView android:textSize="12sp"
+        android:textColor="@color/white"
+
+        android:text="@string/global_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView"
+        android:id="@+id/textView5" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView3"
+        app:srcCompat="@drawable/global"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:scaleType="fitXY" />
+
+    <TextView android:textSize="12sp"
+        android:textColor="@color/white"
+
+        android:text="@string/global_taxfree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView4"
+        android:id="@+id/textView7"
+        app:srcCompat="@drawable/global" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView5"
+        app:srcCompat="@drawable/kt"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:scaleType="fitXY" />
+
+    <TextView android:textSize="12sp"
+        android:textColor="@color/white"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView2"
+        android:id="@+id/textView8"
+        android:text="@string/kt_tourist" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView6"
+        app:srcCompat="@drawable/easy"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:scaleType="fitXY" />
+
+    <TextView android:textSize="12sp"
+        android:textColor="@color/white"
+
+        android:text="@string/easy_refund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView2"
+        android:id="@+id/textView9" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView2"
+        app:srcCompat="@drawable/cube"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY" />
+
+    <TextView android:textSize="12sp"
+        android:textColor="@color/white"
+
+        android:text="@string/cube_refund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView6"
+        android:layout_toEndOf="@+id/imageView2"
+        android:id="@+id/textView10" />
+
+    <TextView android:textSize="12sp"
+        android:textColor="@color/white"
+
+        android:textStyle="bold"
+        android:text="@string/booth_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView11"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView9"
+        app:srcCompat="@color/white"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView8"
+        app:srcCompat="@drawable/kiosk"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp" />
+
+    <TextView android:textSize="12sp"
+        android:textColor="@color/white"
+
+        android:text="@string/kiosk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_toEndOf="@+id/imageView7"
+        android:id="@+id/textView12" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView10"
+        app:srcCompat="@color/white"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView7"
+        app:srcCompat="@drawable/window"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignParentStart="true" />
+
+    <TextView android:textSize="12sp"
+        android:textColor="@color/white"
+
+        android:text="@string/window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView8"
+        android:layout_toEndOf="@+id/imageView7"
+        android:id="@+id/textView13"
+        android:layout_marginBottom="2dp" />
+
+</RelativeLayout>

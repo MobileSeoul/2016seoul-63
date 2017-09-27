@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="user_age_group">
+        <item>@string/user_ls18</item>
+        <item>@string/user_1020</item>
+        <item>@string/user_2030</item>
+        <item>@string/user_3040</item>
+        <item>@string/user_4050</item>
+        <item>@string/user_gt55</item>
+        <item>@string/user_prefer_not</item>
+    </string-array>
+
+    <string-array name="user_continent">
+        <item>@string/user_africa</item>
+        <item>@string/user_asia</item>
+        <item>@string/user_europe</item>
+        <item>@string/user_north</item>
+        <item>@string/user_oceania</item>
+        <item>@string/user_south</item>
+    </string-array>
+</resources>

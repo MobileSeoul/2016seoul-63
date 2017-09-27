@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReTax</string>
+    <string name="title_activity_maps">맵</string>
+
+    <!--Map action bar-->
+    <string name="action_search">검색</string>
+    <string name="search_hint">매장명 또는 위치를 입력..</string>
+
+    <!--Menu List-->
+    <string name="menu_map">Map</string>
+    <string name="menu_calc">Refund Calculator</string>
+    <string name="menu_call">Ask For Help</string>
+
+    <!--Calculator-->
+    <string name="calculatorActivity">환급 계산기</string>
+    <string name="total">총 환급금액: </string>
+    <string name="enterPrice">금액 입력란(KRW)</string>
+    <string name="calcRecord">계산 기록</string>
+    <string name="defaultTotal">0 KRW</string>
+    <string name="krw_currency">KRW</string>
+    <string name="refund_noti">주의: 보여지는 금액은 예상 환급 금액입니다. 환급소에서 추가 수수료를 요구할수도 있습니다. 또한 구매하신 물품에 따라 달라질수도 있습니다.</string>
+
+    <!--Floating Menu-->
+    <string name="immediate_option">즉시환급</string>
+    <string name="after_option">사후환급</string>
+
+    <!--legend-->
+    <string name="legend">범례</string>
+    <string name="immediate_stores">즉시환급</string>
+    <string name="taxfree_stores"><u>면세점</u></string>
+    <string name="booth_type"><u>환급소 종류</u></string>
+
+    <string name="global_blue">글로벌 블루</string>
+    <string name="global_taxfree">글로벌 텍스 프리</string>
+    <string name="kt_tourist">KT 투어리스트 리워즈</string>
+    <string name="easy_refund">이지텍스 리펀드</string>
+    <string name="cube_refund">큐브리펀드</string>
+
+    <string name="kiosk">키오스크</string>
+    <string name="window">서비스 창구</string>
+    <string name="show_direction">길 찾기</string>
+
+    <!--User Define Fragment-->
+    <string name="user_intro">Get Started in 5 seconds!</string>
+    <string name="user_tour">저는 여행객이..</string>
+    <string name="user_tourist">맞습니다.</string>
+    <string name="user_nottourist">아닙니다.</string>
+
+    <string name="user_gender">제 성별은..</string>
+    <string name="user_male">남성</string>
+    <string name="user_female">여성</string>
+    <string name="user_non">기타</string>
+
+    <string name="user_from">그리고 제가 살던 대륙은..</string>
+    <string name="user_africa">아프리카</string>
+    <string name="user_asia">아시아</string>
+    <string name="user_europe">유럽</string>
+    <string name="user_north">북아메리카</string>
+    <string name="user_south">남아메리카</string>
+    <string name="user_oceania">오세아니아</string>
+
+    <string name="user_age">제 연령대는..</string>
+    <string name="user_ls18">18세 미만</string>
+    <string name="user_1020">18 ~ 24세</string>
+    <string name="user_2030">25 ~ 34세</string>
+    <string name="user_3040">35 ~ 44세</string>
+    <string name="user_4050">45 ~ 54세</string>
+    <string name="user_gt55">55 이상</string>
+    <string name="user_prefer_not">답변을 하고싶지 않습니다.</string>
+
+    <string name="user_tour_exp">한국 투어에 몇 점을 주고 싶으신가요?</string>
+    <string name="user_tour_yet">투어 중이 아닙니다.</string>
+
+    <string name="user_submit">시작하기</string>
+
+
+    <!--Contact-->
+    <string name="visit_web">웹 사이트 방문</string>
+    <string name="dial">통화> </string>
+</resources>

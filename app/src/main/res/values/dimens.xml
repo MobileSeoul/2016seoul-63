@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Refund Option button dimension-->
+    <dimen name="refund_option_width">100dp</dimen>
+    <dimen name="refund_option_height">100dp</dimen>
+
+    <!-- Custom Cluster Marker item image dimension-->
+    <dimen name="custom_item_image">50dp</dimen>
+    <dimen name="custom_item_image_padding">2dp</dimen>
+</resources>

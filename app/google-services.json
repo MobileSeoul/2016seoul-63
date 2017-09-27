@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "165165277430",
+    "firebase_url": "https://retax-f89a2.firebaseio.com",
+    "project_id": "retax-f89a2",
+    "storage_bucket": "retax-f89a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165165277430:android:ab1349bb5c688b2b",
+        "android_client_info": {
+          "package_name": "com.seoulapp.sandfox.retax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165165277430-mjaue63hojmqk71jn4fie66tb23f90ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTSaGeWXi0YftJiYDIrgwWPlDnk2eaLL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+

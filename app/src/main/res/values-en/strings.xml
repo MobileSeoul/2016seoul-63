@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="app_name">ReTax</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--Map action bar-->
+    <string name="action_search">SEARCH</string>
+    <string name="search_hint">Enter store name or address..</string>
+
+    <!--Menu List-->
+    <string name="menu_map">Map</string>
+    <string name="menu_calc">Refund Calculator</string>
+    <string name="menu_call">Ask For Help</string>
+
+    <!--Calculator-->
+    <string name="calculatorActivity">Refund Calculator</string>
+    <string name="total">Total refund: </string>
+    <string name="enterPrice">Enter the price(KRW)</string>
+    <string name="calcRecord">Calculation History</string>
+    <string name="defaultTotal">0 KRW</string>
+    <string name="krw_currency">KRW</string>
+    <string name="refund_noti">Cautions: This only shows the approximate refundable fee. Refund Centers might charge you with extra fees. It may also vary depending on the item you purchased.</string>
+
+    <!--Floating Menu-->
+    <string name="immediate_option">Immediate\nRefund</string>
+    <string name="after_option">Delayed\nRefund</string>
+
+    <!--legend-->
+    <string name="legend">Legends</string>
+    <string name="immediate_stores">Immediate Refund</string>
+    <string name="taxfree_stores"><u>Tax Free Stores</u></string>
+    <string name="booth_type"><u>Refund Booth Type</u></string>
+
+    <string name="global_blue">Global Blue</string>
+    <string name="global_taxfree">Global Tax Free</string>
+    <string name="kt_tourist">KT Tourist Reward</string>
+    <string name="easy_refund">Easy Tax Refund</string>
+    <string name="cube_refund">CubeRefund</string>
+
+    <string name="kiosk">Kiosk Machine</string>
+    <string name="window">Service Window</string>
+    <string name="show_direction">Show Direction</string>
+
+    <!--User Define Fragment-->
+    <string name="user_intro">Get Started in 5 seconds!</string>
+    <string name="user_tour">I\'m..</string>
+    <string name="user_tourist">A Tourist</string>
+    <string name="user_nottourist">Not A Tourist</string>
+
+    <string name="user_gender">I define my gender as..</string>
+    <string name="user_male">Male</string>
+    <string name="user_female">Female</string>
+    <string name="user_non">Other</string>
+
+    <string name="user_from">And I\'m from..</string>
+    <string name="user_africa">Africa</string>
+    <string name="user_asia">Asia</string>
+    <string name="user_europe">Europe</string>
+    <string name="user_north">North America</string>
+    <string name="user_south">South America</string>
+    <string name="user_oceania">Oceania</string>
+
+    <string name="user_age">I identify my age group as..</string>
+    <string name="user_ls18">less than 18</string>
+    <string name="user_1020">18 ~ 24</string>
+    <string name="user_2030">25 ~ 34</string>
+    <string name="user_3040">35 ~ 44</string>
+    <string name="user_4050">45 ~ 54</string>
+    <string name="user_gt55">55 and over</string>
+    <string name="user_prefer_not">I prefer not to say</string>
+
+    <string name="user_tour_exp">How would you rate your tour in Korea?</string>
+    <string name="user_tour_yet">I haven\'t toured yet</string>
+
+    <string name="user_submit">DONE</string>
+
+
+    <!--Contact-->
+    <string name="visit_web">Visit the Website</string>
+    <string name="dial">Dial</string>
+</resources>

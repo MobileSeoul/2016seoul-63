@@ -1,0 +1,133 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.seoulapp.sandfox.retax.MapsActivity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_pin_drop_white_24px"
+        app:fabSize="normal"
+        app:backgroundTint="?attr/colorPrimary"
+        android:clickable="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_option0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/fab_menu"
+        android:layout_above="@id/fab_menu"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_info_outline_black_24px"
+        app:fabSize="mini"
+        app:backgroundTint="@color/white"
+        android:clickable="true"
+        android:visibility="gone"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/fab_menu"
+        android:layout_above="@id/fab_option0"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_store_mall_directory_black_24px"
+        app:fabSize="mini"
+        app:backgroundTint="@color/white"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_marginEnd="8dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/fab_menu"
+        android:layout_above="@id/fab_option1"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_local_atm_black_24px"
+        app:fabSize="mini"
+        app:backgroundTint="@color/white"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_marginEnd="8dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/fab_menu"
+        android:layout_above="@id/fab_option2"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_my_location_black_24px"
+        app:fabSize="mini"
+        app:backgroundTint="@color/white"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:background="#99000000"
+        android:textSize="12sp"
+        android:text="@string/after_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option1_txt"
+        android:layout_alignTop="@+id/fab_option1"
+        android:layout_toStartOf="@+id/fab_option1"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textAllCaps="true"
+        android:gravity="end"
+        android:visibility="gone" />
+
+    <TextView
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:background="#99000000"
+        android:textSize="12sp"
+        android:text="@string/immediate_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option2_txt"
+        android:layout_alignTop="@+id/fab_option2"
+        android:layout_toStartOf="@+id/fab_option2"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textAllCaps="true"
+        android:gravity="end" />
+
+    <include
+        layout="@layout/map_legend"
+        android:id="@+id/legends"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_alignBottom="@+id/fab_menu"
+        android:paddingBottom="3dp"
+        />
+
+</RelativeLayout>

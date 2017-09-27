@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.seoulapp.sandfox.retax.MainActivity">
+    <fragment
+        android:id="@+id/fragment"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.seoulapp.sandfox.retax.UserDefineFragment"/>
+    <ImageButton
+        android:id="@+id/linkToMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_map"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/head"
+        android:adjustViewBounds="true"
+        android:background="@color/main"
+        android:onClick="onClickMenuButton" />
+
+    <ImageButton
+        android:id="@+id/linkToCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/menu_calc"
+        app:srcCompat="@drawable/middle"
+        android:adjustViewBounds="true"
+        android:background="@color/sub"
+        android:onClick="onClickMenuButton" />
+
+    <ImageButton
+        android:id="@+id/linkToCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/menu_call"
+        app:srcCompat="@drawable/bottom"
+        android:adjustViewBounds="true"
+        android:background="@color/main"
+        android:onClick="onClickMenuButton" />
+</LinearLayout>

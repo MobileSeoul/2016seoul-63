@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:text="@string/user_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/textView14"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_tour"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:checkedButton="@+id/rb_tourist">
+
+        <TextView
+            android:text="@string/user_tour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView15"
+            android:textSize="14sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/user_tourist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_tourist"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:text="@string/user_nottourist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_not_tourist"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:text="@string/user_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/rg_tour"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="false" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentStart="true"
+        android:id="@+id/sp_continent"
+        android:entries="@array/user_continent"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:layout_centerInParent="false"
+        android:gravity="center_vertical|start" />
+
+    <TextView
+        android:text="@string/user_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/sp_continent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:checkedButton="@+id/rb_male">
+
+        <RadioButton
+            android:text="@string/user_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_male"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:text="@string/user_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_female"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:text="@string/user_non"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_other"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <TextView
+        android:text="@string/user_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/rg_gender"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_age"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:entries="@array/user_age_group"
+        android:textSize="16sp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sp_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating">
+    <TextView
+        android:text="@string/user_tour_exp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/textView19"
+        android:layout_marginTop="10dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rate_tour"
+        android:numStars="5" />
+    <CheckBox
+        android:text="@string/user_tour_yet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rate_tour"
+        android:layout_alignParentStart="true"
+        android:id="@+id/cb_not_tour"
+        android:layout_alignEnd="@+id/rate_tour"
+        android:textSize="12sp" />
+    </LinearLayout>
+    <Button
+    android:text="@string/user_submit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:id="@+id/user_submit"
+    android:layout_alignParentEnd="true"
+    android:background="?attr/colorPrimary"
+    android:textColor="?attr/colorButtonNormal" />
+
+
+
+
+</RelativeLayout>

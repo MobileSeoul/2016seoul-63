@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calculator2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    tools:context="com.seoulapp.sandfox.retax.CalculatorActivity">
+
+    <TextView
+        android:text="@string/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_above="@+id/inputEditText"
+        android:focusable="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLines="1"
+        android:ems="10"
+        android:id="@+id/inputEditText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/enterPrice"
+        android:gravity="center_vertical|end" />
+
+    <TextView
+        tools:text="30000"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalRefundText"
+        android:textSize="20sp"
+        android:layout_below="@+id/priceListView"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView2"
+        android:gravity="end" />
+
+    <TextView
+        android:text="@string/refund_noti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:gravity="start"
+        android:textSize="12sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/priceListView"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView2"
+        android:layout_below="@+id/textView4"
+        android:stackFromBottom="true"/>
+
+</RelativeLayout>
